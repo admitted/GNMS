@@ -35,7 +35,7 @@ public class HeadController extends BaseController {
 	private FhsmsManager fhsmsService;
 
 	/**
-	 * 获取头部信息
+	 * 获取头部信息（头部文件替换）
 	 * @return
 	 */
 	@RequestMapping(value = "/getList")
