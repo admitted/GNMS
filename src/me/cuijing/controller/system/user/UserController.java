@@ -62,7 +62,7 @@ public class UserController extends BaseController {
 		}
 		String lastLoginStart = pd.getString("lastLoginStart");     //开始时间
 		String lastLoginEnd = pd.getString("lastLoginEnd");         //结束时间
-		if (lastLoginStart != null && !"".equals(lastLoginStart)) { // 若不为空加入 pd
+		if (lastLoginStart != null && !"".equals(lastLoginStart)) { //若不为空加入 pd
 			pd.put("lastLoginStart", lastLoginStart + " 00:00:00");
 		}
 		if (lastLoginEnd != null && !"".equals(lastLoginEnd)) {

@@ -29,8 +29,10 @@ public class HeadController extends BaseController {
 
 	@Resource(name = "userService")
 	private UserManager userService;
+
 	@Resource(name = "appuserService")
 	private AppuserManager appuserService;
+
 	@Resource(name = "fhsmsService")
 	private FhsmsManager fhsmsService;
 
